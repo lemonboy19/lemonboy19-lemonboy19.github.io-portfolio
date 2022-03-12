@@ -79,7 +79,8 @@ h2 {
 
 }
 
- .div:hover{background-color: rgb(6, 230, 25);}
+.link:hover {background-color: #02fa0f;}
+.another-link:hover {background-color: #02fa0f;}
 
  
 
