@@ -10,10 +10,86 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+.header {
+    width: 100%;
+    height: 80%;
+    padding: 100px ;
+    text-align: center;
+    background-color: #03F02B;
+    overflow: hidden;
+}
 
+.dropbtn {
+    background-color: rgb(42, 192, 99);
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    border: 1px dashed;
+
+}
+
+.drop {
+    position: relative;
+    display: inline-block;
+}
+.content {
+    display: none;
+    position:absolute;
+    background-color: #9983E1;
+    min-width: 200px
+    z-index; 1;
+}
+
+.content p {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    align-items: center;
+    display: block;
+
+
+.content:hover{background-color: #EE6281;}
+}
+
+
+.dropbtn:hover .content {display: block;
+}
 border1 {
     width: 300px;
     border: 20px dotted greenyellow;
     padding: 50px;
     margin: 25px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px dotted #9983E1;
+    float: center;
+    width: 180px;
+    align-items: center;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery:hover {
+    border: 2px solid black;
+    padding: 2px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
