@@ -14,7 +14,9 @@
     padding: 100px;
     text-align: center;
     background-color: #0e0e0e;
-  
+    position: sticky;
+    scroll-behavior: smooth;
+    cursor: pointer;
 
     
 }
@@ -40,6 +42,8 @@
     padding: 10px;
     font-size: 40px;
     border: 1px solid grey;
+    transition-duration: 2s;
+    
 
 }
 
@@ -64,7 +68,7 @@
     display: block;
 }
 
-.dropdown-content a:hover {background-color: royalblue;}
+.dropdown-content a:hover {background-color: royalblue;} 
 .dropdown:hover .dropdown-content {display: block;}
 
 border1 {
